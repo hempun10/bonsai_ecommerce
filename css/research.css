@@ -1,0 +1,68 @@
+/*=============== VARIABLES CSS ===============*/
+:root {
+    --bg-color: #ffffff;
+    --text-color: #0f172a;
+    --main-color: #6b7280;
+    --other-color: #334155;
+    --acent-color: #013b23;
+    --lite-color: #e3ffe6;
+    --green-lite-color:#2f8d5f;
+    --big-font: 4.3rem;
+    --h2-font: 2.2rem;
+    --p-font: 1rem;
+    --font:"Poppins", sans-serif;
+  }
+
+/*=============== HERO CSS ===============*/
+.hero{
+    height: auto;
+    display: block;
+    text-align: center;
+    --mask:
+    radial-gradient(107.30px at 50% calc(100% - 151.70px),#000 99%,#0000 101%) calc(50% - 148px) 0/296px 100%,
+    radial-gradient(107.30px at 50% calc(100% + 77.70px),#0000 99%,#000 101%) 50% calc(100% - 74px)/296px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+
+
+}
+.hero-content{
+    margin-top: 6rem;
+    margin-bottom: 4.5rem;
+}
+.hero-heading{
+    font-size: var(--big-font);
+}
+.hero-des{
+    width: 70%;
+    margin: auto;
+}
+/*=============== Rsearch  CSS ===============*/
+.main-row{
+    flex-direction: column;
+    text-align: center;
+}
+.reserch-heading{
+    text-align: center;
+    font-size: var(--h2-font);
+    font-weight: 600;
+}
+@media (max-width: 940px){
+    :root{
+        --big-font: 3.5rem;
+    }
+    .hero-heading{
+        font-size: var(--big-font);
+        font-weight: 600;
+    }
+    .hero-des{
+        width: 60%;
+        line-height: 1.4;
+    }
+}
+@media (max-width: 580px){
+    .hero-des{
+        width: 80%;
+        line-height: 1.4;
+    }
+}

@@ -1,0 +1,102 @@
+ /* body{
+        margin: 0 7% 0 7%;
+    } */
+hr {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 2px;
+  color: black;
+  background-color: black;
+  border: none;
+}
+
+.pic-1{
+  display: flex;
+  justify-content: center ;
+}
+
+.intro{
+  margin: 30px 70px;
+  text-align: justify;
+}
+
+.section-1{
+  display: flex;
+  margin-top: 20px;
+}
+
+.left-col{
+  padding-left: 10%;
+}
+.right-col{
+  padding-top: 50px;
+  padding-left: 10%;
+
+}
+
+.section-2 {
+  display: flex;
+  margin-top: 20px;
+}
+.left-column{
+  padding-top: 50px;
+  padding-left: 10%;
+}
+.right-column{
+
+  padding-left: 10%;
+}
+
+
+ .section-3{
+  display: flex;
+  margin-top: 20px;
+ }
+
+ .p1{
+  margin-left: 70px;
+ }
+.p2{
+  margin-left: 59px;
+}
+.p3{
+  margin-left: 40px;
+}
+
+#more {display: none;}
+button {
+  background-color: bisque;
+  color: black;
+  border: none;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:  2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(244, 187, 117);
+}
+
+button:active {
+  background-color: rgb(244, 187, 117);
+  transform: translateY(4px);
+}
+
+.examples{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5% 0;
+}
+
+.examples .box-title{
+  text-align: center;
+}
+.blog-head{
+    margin-top: 8%;
+}
