@@ -32,6 +32,7 @@ html{
   --font:"Poppins", sans-serif;
 }
 body {
+  width: 100%;
   color: var(--acent-color);
   background: var(--bg-color);
 }
@@ -566,6 +567,7 @@ span {
     --h3-font: .75rem;
     --h4-font:.55rem;
   }
+ 
   .cta-text {
     margin-left: 30px;
   }
