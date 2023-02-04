@@ -567,7 +567,13 @@ span {
     --h3-font: .75rem;
     --h4-font:.55rem;
   }
- 
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
   .cta-text {
     margin-left: 30px;
   }
