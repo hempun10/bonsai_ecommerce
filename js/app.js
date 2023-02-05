@@ -1,4 +1,4 @@
-//Adding sticky class on scroll 
+//Declaring variable 
 const header = document.querySelector("header");
 const shopping_cart = document.querySelector('.shopping-cart');
 const cart_btns = document.querySelectorAll('.add-to-cart');
