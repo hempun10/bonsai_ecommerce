@@ -26,7 +26,7 @@ window.onscroll = () => {
 
 
 //For Shopping Cart
-for(cart_btn of cart_btns){
+for(let cart_btn of cart_btns){
 	cart_btn.onclick = (e)=>{
 		let product_count = Number(shopping_cart.getAttribute('data-product-count')) || 0; //Retrieves the "data-product-count" attribute of the "shopping_cart" element and converts it from a string to a number. If the attribute is empty, it defaults to 
 		shopping_cart.setAttribute('data-product-count',product_count + 1)
